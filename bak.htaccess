@@ -1,0 +1,22 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+
+
+
+
+
+
+RewriteCond %{HTTP_HOST} ^www\.keav\.net$
+RewriteRule ^(.*)$ "http\:\/\/keav\.net\/$1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^keav\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.keav\.uk$
+RewriteRule ^/?$ "http\:\/\/keav\.net\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^keav\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.keav\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/keav\.net\/" [R=301,L]
+
+AddType 'text/html; charset=UTF-8' html
