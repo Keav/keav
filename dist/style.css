@@ -46,7 +46,9 @@ body, html {
     left:68%;
 }
 
-.left:hover, .right:hover {text-decoration:none;color:#2a6496;}
+a:link, a:active, a:visited {text-decoration: none;color:#fff;}
+
+.left:hover, .right:hover, a:hover {text-decoration:none;color:#2a6496;}
 
 #slide1 {background-image: url(images/bgx17.jpg);}
 #slide2 {background-image: url(images/bgx17b.jpg);}
