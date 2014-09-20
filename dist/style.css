@@ -30,7 +30,6 @@ body, html {
     color:#fff;
     font-size:4em;
     text-transform:uppercase;
-    border: 1px solid #fff;
     width:450px;
     height:160px;
     text-align:center;
@@ -47,11 +46,22 @@ body, html {
     left:68%;
 }
 
-.left:hover, .right:hover {text-decoration:none;color:#2a6496;border:1px solid #2a6496;}
+.left:hover, .right:hover {text-decoration:none;color:#2a6496;}
 
 #slide1 {background-image: url(images/bgx17.jpg);}
 #slide2 {background-image: url(images/bgx17b.jpg);}
 #slide3 {background-image: url(images/bgx17gs.jpg);}
+
+.divider {
+    position:absolute;
+    width:2px;
+    height:300px;
+    top:50%;
+    left:50%;
+    margin-top:-200px;
+    margin-left:-1px;
+    background-color: #fff;
+}
 
 .section {        
     position:relative;
