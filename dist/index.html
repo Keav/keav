@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title>KEAV</title>
+     
+      <meta name="robots" content="noindex,nofollow" />
+      <meta name="revisit-after" content="7 days" />
+
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+      <link href="style.css" rel="stylesheet" type="text/css" />
+
+      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+      <link rel="stylesheet" href="owl-carousel/owl.transitions.css">
+
+     <script>
+        var _gaq = _gaq || [];
+        var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+        _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+        _gaq.push(['_setAccount', 'UA-42923324-2']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+
+<!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<div class="section" style="z-index:99999;">
+
+    <div id="owl-demo" class="owl-carousel">
+    	<div class="item" id="slide1"></div>
+    	<div class="item" id="slide2"></div>
+    	<div class="item" id="slide3"></div>     
+    </div>
+
+    <a href="octopress/">
+      <div class="left">
+        Octopress Blog
+      </div>
+    </a>
+
+    <a href="coffee/">
+      <div class="right">
+        Wordpress Blog
+      </div>
+    </a>
+
+</div>
+
+    <script src="js/jquery-1.9.1.min.js"></script>
+
+   	<script src="owl-carousel/owl.carousel.js"></script>
+
+	<script type="text/javascript">
+  		$(document).ready(function() {
+
+      	var owl = $("#owl-demo");
+
+      	owl.owlCarousel({
+      		autoPlay: 5000,
+        	navigation : false,
+        	pagination:false,
+        	singleItem : true,
+        	transitionStyle : "fade", //fade, backSlide, goDown, fadeUp
+        	dragBeforeAnimFinish: "false",
+      		});
+     	});
+    </script>
+
+    <script src="js/analytics.js"></script>
+
+</body>
+</html>
