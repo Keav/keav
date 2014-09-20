@@ -15,11 +15,9 @@
 
       <link href="style.css" rel="stylesheet" type="text/css" />
 
-      <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-      <link rel="stylesheet" href="owl-carousel/owl.theme.css">
-      <link rel="stylesheet" href="owl-carousel/owl.transitions.css">
+      <link rel="stylesheet" href="owl-carousel/owl.carousel.min.css">
 
-     <script>
+<!--      <script>
         var _gaq = _gaq || [];
         var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
         _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
@@ -31,7 +29,7 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
-      </script>
+      </script> -->
 
 <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -62,7 +60,7 @@
 
     <script src="js/jquery-1.9.1.min.js"></script>
 
-   	<script src="owl-carousel/owl.carousel.js"></script>
+   	<script src="owl-carousel/owl.carousel.min.js"></script>
 
 	<script type="text/javascript">
   		$(document).ready(function() {
@@ -76,11 +74,13 @@
         	singleItem : true,
         	transitionStyle : "fade", //fade, backSlide, goDown, fadeUp
         	dragBeforeAnimFinish: "false",
+          mouseDrag : false,
+          touchDrag : false
       		});
      	});
     </script>
 
-    <script src="js/analytics.js"></script>
+<!--     <script src="js/analytics.js"></script> -->
 
 </body>
 </html>

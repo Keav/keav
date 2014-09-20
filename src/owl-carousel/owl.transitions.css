@@ -20,9 +20,9 @@
   animation: fadeOut 2s both ease;
 }
 .owl-fade-in {
-  -webkit-animation: fadeIn 1.5s both ease;
-  -moz-animation: fadeIn 1.5s both ease;
-  animation: fadeIn 1.5s both ease;
+  -webkit-animation: fadeIn 2s both ease;
+  -moz-animation: fadeIn 2s both ease;
+  animation: fadeIn 2s both ease;
 }
 /* backSlide */
 .owl-backSlide-out {
