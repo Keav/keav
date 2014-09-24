@@ -230,4 +230,4 @@ pip-log.txt
 BingSiteAuth.xml
 !dist/
 !src/
-
+node_modules
