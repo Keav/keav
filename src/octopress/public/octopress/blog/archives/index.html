@@ -10,8 +10,8 @@
 
   
   <meta name="description" content="Blog Archive 2014 What Is a 'Responsive' Website - and Why You Should Have One
-Sep 17 2014 Why You Should Love 'Analytics'
-Sep 17 2014 Search Engine &hellip;">
+Sep 17 2014 posted in web design Why You Should Love 'Analytics'
+Sep &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -87,6 +87,10 @@ Sep 17 2014 Search Engine &hellip;">
 <h1><a href="/octopress/blog/2014/09/17/what-is-a-responsive-website-and-why-you-should-have-one/">What Is a &#8216;Responsive&#8217; Website - and Why You Should Have One</a></h1>
 <time datetime="2014-09-17T15:44:09+01:00" pubdate><span class='month'>Sep</span> <span class='day'>17</span> <span class='year'>2014</span></time>
 
+<footer>
+  <span class="categories">posted in <a class='category' href='/octopress/blog/categories/web-design/'>web design</a></span>
+</footer>
+
 
 </article>
 
@@ -130,6 +134,15 @@ Sep 17 2014 Search Engine &hellip;">
 <aside class="sidebar">
   
     <section>
+  <h1>About Me</h1>
+
+	<img src="/octopress/images/portrait.jpg" alt="My portrait">
+
+  <p>My name is Chris Keavey.</p>
+  <p>I am passionate about Website Development and love the direction that the industry is heading in. I am a self-confessed gadget freak and love all things tech.</p>
+  <p>I live in Bristol in the United Kingdom and if you&#8217;d like to get in touch regarding a website project you need help with, you can contact me at <a href="mailto:chris@chriskeavey.com?subject=Mail%20from%20Octopress">chris@chriskeavey.com</a></p>
+</section>
+<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -151,8 +164,51 @@ Sep 17 2014 Search Engine &hellip;">
     
   </ul>
 </section>
+<section>
+  <h1>Categories</h1>
+    <ul id="category-list"><li class='category'><a href='/octopress/blog/categories/web-design/'>web design (1)</a></li>
+</ul>
+</section>
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/Keav">@Keav</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'Keav',
+            count: 0,
+            skip_forks: true,
+            skip_repos: [ "OB", "flibble", "hello-world" ],
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/octopress/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/Chris Keavey?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
 
 
 
@@ -170,7 +226,29 @@ Sep 17 2014 Search Engine &hellip;">
 </footer>
   
 
+<script type="text/javascript">
+      var disqus_shortname = 'Keav';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
 

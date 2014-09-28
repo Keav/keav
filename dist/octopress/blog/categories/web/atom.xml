@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Web | Chris's Octopress Blog]]></title>
+  <link href="http://keav.net/octopress/blog/categories/web/atom.xml" rel="self"/>
+  <link href="http://keav.net/octopress/"/>
+  <updated>2014-09-26T13:11:23+01:00</updated>
+  <id>http://keav.net/octopress/</id>
+  <author>
+    <name><![CDATA[Chris Keavey]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[What Is a 'Responsive' Website - and Why You Should Have One]]></title>
+    <link href="http://keav.net/octopress/blog/2014/09/17/what-is-a-responsive-website-and-why-you-should-have-one/"/>
+    <updated>2014-09-17T15:44:09+01:00</updated>
+    <id>http://keav.net/octopress/blog/2014/09/17/what-is-a-responsive-website-and-why-you-should-have-one</id>
+    <content type="html"><![CDATA[<p>We have reached a tipping point. <strong><em>THE</em></strong> tipping point. The one that web evangelists have been predicting for years. As I write this blog, the internet is teetering on a precipice!</p>
+
+<p>OK, maybe it&rsquo;s not all that dramatic&hellip;</p>
+
+<p>The latest news is that the average person using the internet, reading the news, online shopping, dare I say, Facebook&#8217;ing&#8217;, is now more likely to do it on a mobile device or tablet, than from a desktop PC.</p>
+
+<p>Why is this important to you? Well if you don’t have a website, it’s probably not, but if you do, it’s vital. Do you know how your site looks (or perhaps more importantly, performs) when viewed on an Android device, on a tablet or on an iPhone?</p>
+
+<p>Did you consider mobile devices when your site was designed? Chances are, if your site is more than just a couple of years old, you didn’t. After all, the iPhone was only released as recently as 2007, although it feels like we’ve always had them.</p>
+
+<p>If you’re asking yourself if you really need a site that works on a mobile phone, then that is a perfectly sensible and reasonable question to ask, but it’s not one you have to guess. Using <strong>Analytics</strong>, as I talked about in a previous blog post, you can see exactly what visitors to your site are using when they visit your site. If only one percent of your visitors are on a mobile device, then perhaps you don’t need to worry about it. But, what if you discover that 60% of your visits come from a smartphone? And that your site really doesn’t work well on a smartphone. Well, then, perhaps a freshening up of the design might be in order.</p>
+
+<p>There are now so many different devices out there, all able to access the internet, so how do you make sure that your site looks good on them all?</p>
+
+<p>You could build several (many!) different version of your site and have scripts running to detect the kind of device a visitor is using and serve them the appropriate version, but frankly there are too many devices to realistically do that. And what about that new device coming out next year, or the one after that?</p>
+
+<p>The solution is to build one <strong>responsive</strong> website. Now your site will automatically adjust its layout and font sizes to suite the viewing screen and you never need to be concerned about knowing what the device is.</p>
+
+<p>So, how do you make your site responsive? The best scenario here is that you don’t have an existing website at all, and therefore a responsive site can be built from the ground up. If you already have a site, but it is fairly modern, was built using the best practices of webs design and is relatively simple, then it could be possible to retrofit it into being a responsive site. If it is more than a few years old though, very complicated or was not written to modern W3C complient standards, then it might require more work. This will then be a decision as to whether a new site might be the simpler and cheaper option.</p>
+]]></content>
+  </entry>
+  
+</feed>
