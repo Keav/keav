@@ -1,0 +1,34 @@
+{
+  "name": "keav.net",
+  "version": "0.1.0",
+  "description": "My personal website",
+  "private": true,
+  "homepage": "http://keav.net",
+  "author": {
+    "name": "Chris Keavey",
+    "email": "chris@keav.net",
+    "url": "http://keav.net"
+  },
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Keav/keav.net.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.6.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-htmlmin": "^0.3.0",
+    "grunt-contrib-imagemin": "^0.8.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-sass": "*",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-cssc": "*",
+    "grunt-hashres": "^0.4.1",
+    "grunt-htmlhint": "*",
+    "grunt-shell": "^1.1.1",
+    "matchdep": "*"
+  }
+}

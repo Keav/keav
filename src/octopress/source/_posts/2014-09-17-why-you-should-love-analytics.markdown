@@ -10,7 +10,7 @@ Analytics used to be the tool of only the largest companies with time and resour
 
 Now, all this power (information – knowledge is power, after all!) is accessible to anyone, and best of all, for free.
 
-Analytics is, very simply put, is information about your website.  But that description really doesn’t do the subject justice. This information, interpreted correctly, can be used for so much more than just your website, it can apply to your whole business. It can be an insight into your customers, it can help identify unexpected markets, or help you improve your service to your existing customers.
+Analytics is, very simply put, information about your website.  But that description really doesn’t do the subject justice. This information, interpreted correctly, can be used for so much more than just your website, it can apply to your whole business. It can be an insight into your customers, it can help identify unexpected markets, or help you improve your service to your existing customers.
 
 Usage patterns of your visitors, not just how many visitors come to your site, but what they do while they’re there, what they used to visit your page (PC, mobile, tablet), what size screen they used. Where they were geographically in the world, Swansea or Hong Kong?!
 
