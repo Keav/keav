@@ -5,4 +5,3 @@
 
   ga('create', 'UA-42923324-2', 'auto');
   ga('send', 'pageview');
-
