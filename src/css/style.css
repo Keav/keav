@@ -22,24 +22,20 @@ body, html {
     -moz-perspective : 1200px;
     -moz-perspective-origin-x : 50%;
     -moz-perspective-origin-y : 50%;
-    perspective : 1200px;
+    -webkit-perspective : 1200px;
+            perspective : 1200px;
 }
 /* fade */
 .owl-fade-out {
   -webkit-animation: fadeOut 2s both ease;
-  -moz-animation: fadeOut 2s both ease;
   animation: fadeOut 2s both ease;
 }
 .owl-fade-in {
   -webkit-animation: fadeIn 2s both ease;
-  -moz-animation: fadeIn 2s both ease;
   animation: fadeIn 2s both ease;
 }
 
 @-webkit-keyframes empty {
-  0% {opacity: 1}
-}
-@-moz-keyframes empty {
   0% {opacity: 1}
 }
 @keyframes empty {
@@ -49,19 +45,11 @@ body, html {
   0% { opacity:0; }
   100% { opacity:1; }
 }
-@-moz-keyframes fadeIn {
-  0% { opacity:0; }
-  100% { opacity:1; }
-}
 @keyframes fadeIn {
   0% { opacity:0; }
   100% { opacity:1; }
 }
 @-webkit-keyframes fadeOut {
-  0% { opacity:1; }
-  100% { opacity:0; }
-}
-@-moz-keyframes fadeOut {
   0% { opacity:1; }
   100% { opacity:0; }
 }
@@ -191,7 +179,7 @@ a, a:focus, a:link, a:active, a:visited {
 #slide2 {background-image: url(../images/bg2.jpg);}
 #slide3 {background-image: url(../images/bg3.jpg);}
 
-.section {        
+.section {
     position:relative;
     height:100vh;
     width:100%;
@@ -262,7 +250,9 @@ a, a:focus, a:link, a:active, a:visited {
 }
 
 .reel > ul > li:hover{
-  transform:translate(0,-40px);
+  -webkit-transform:translate(0,-40px);
+      -ms-transform:translate(0,-40px);
+          transform:translate(0,-40px);
 }
 
 .reel ul li {
