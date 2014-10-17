@@ -271,6 +271,14 @@ module.exports = function (grunt) {
                     dest: 'dist/',
                 }]
             },
+            octopress: {
+                files: [{
+                    expand: true,
+                    cwd: 'src/octopress/public/',
+                    src: ['**/*'],
+                    dest: 'dist/',
+                }]
+            },
         },
 
         'string-replace': {
