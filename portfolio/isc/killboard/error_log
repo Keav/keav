@@ -1,0 +1,32 @@
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_pconnect(): Access denied for user 'ckeavey'@'localhost' (using password: YES) in /home/keav/public_html/portfolio/isc/killboard/index.php on line 14
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/keav/public_html/portfolio/isc/killboard/index.php on line 15
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): Access denied for user 'keav'@'localhost' (using password: NO) in /home/keav/public_html/portfolio/isc/killboard/index.php on line 19
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): A link to the server could not be established in /home/keav/public_html/portfolio/isc/killboard/index.php on line 19
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): Access denied for user 'keav'@'localhost' (using password: NO) in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1036
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): A link to the server could not be established in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1036
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1039
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): Access denied for user 'keav'@'localhost' (using password: NO) in /home/keav/public_html/portfolio/isc/killboard/frontendfunctions.php on line 47
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): A link to the server could not be established in /home/keav/public_html/portfolio/isc/killboard/frontendfunctions.php on line 47
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/keav/public_html/portfolio/isc/killboard/frontendfunctions.php on line 49
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/keav/public_html/portfolio/isc/killboard/frontendfunctions.php on line 443
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): Access denied for user 'keav'@'localhost' (using password: NO) in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1071
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): A link to the server could not be established in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1071
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1074
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): Access denied for user 'keav'@'localhost' (using password: NO) in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1091
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): A link to the server could not be established in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1091
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_fetch_row() expects parameter 1 to be resource, boolean given in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1094
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): Access denied for user 'keav'@'localhost' (using password: NO) in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1127
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): A link to the server could not be established in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1127
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1128
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): Access denied for user 'keav'@'localhost' (using password: NO) in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1131
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): A link to the server could not be established in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1131
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1132
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): Access denied for user 'keav'@'localhost' (using password: NO) in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1135
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): A link to the server could not be established in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1135
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1136
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): Access denied for user 'keav'@'localhost' (using password: NO) in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1139
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): A link to the server could not be established in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1139
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1140
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): Access denied for user 'keav'@'localhost' (using password: NO) in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1143
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_query(): A link to the server could not be established in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1143
+[01-Oct-2014 21:53:57 Europe/London] PHP Warning:  mysql_result() expects parameter 1 to be resource, boolean given in /home/keav/public_html/portfolio/isc/killboard/frontend.php on line 1144
