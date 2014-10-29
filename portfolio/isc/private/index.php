@@ -34,8 +34,8 @@ if(isset($_POST['tick']))
 
 <script type="text/javascript">
 var ic = "4";
-var side = new Array(ic); 
-side[0] = "../images/minmatar_babe.jpg"; 
+var side = new Array(ic);
+side[0] = "../images/minmatar_babe.jpg";
 side[1] = "../images/caldari_babe.jpg";
 side[2] = "../images/gallente_babe.jpg";
 side[3] = "../images/amarr_dude.jpg";
@@ -43,7 +43,7 @@ side[3] = "../images/amarr_dude.jpg";
 function pickRandom(range) {
 if (Math.random) return Math.round(Math.random() * (range-1)); else {
 var now = new Date();
-return (now.getTime() / 1000) % range; } } 
+return (now.getTime() / 1000) % range; } }
 
 var choice = pickRandom(ic);
 </script>
@@ -178,7 +178,7 @@ Advice for creating Instas / BM's (Bookmarks).<br />
 <a href="abbreviations.htm" target="_self">Eve-Talk Abbreviations</a><br />
 All the abbreviations used in Eve explained.<br />
 </p>
-</td>      
+</td>
 </tr>
 </table>
 
@@ -199,7 +199,7 @@ Eve Characters</p>
 <script type="text/javascript">
 document.writeln('<img src="'+side[choice]+'" alt="" /><br />');
 </script>
-</td>      
+</td>
 </tr>
 </table>
 
@@ -222,7 +222,7 @@ Contact</p>
 <a href="#nogo">Webmaster Email</a><br />
 Email here regarding this site.<br />
 </p>
-</td>      
+</td>
 </tr>
 </table>
 
@@ -279,7 +279,7 @@ flashvars="width=352&height=176&file=isc_intro.m4v&backcolor=0x000000&frontcolor
 New I-S-C Killboard - May 2006<br />
 </p>
 
-<a href="killboard/">
+<a href="../killboard/">
 <img src="../images/killboard.jpg" alt="ISC Killboard" /><br />
 I-S-C Killboard</a><br />
 
@@ -492,7 +492,7 @@ The Corporations very own Killboard!<br />
 <a href="http://www.gentecplc.com/modules.php?name=Forums">Gentec`s Forum</a><br />
 Gentec PLC`s forum.<br />
 </p>
-</td>      
+</td>
 </tr>
 </table>
 
@@ -545,7 +545,7 @@ Official Eve-Online Site<br />
 <a href="http://www.evegeek.com">Eve Geek</a><br />
 Very useful information and tools here.<br />
 </p>
-</td>      
+</td>
 </tr>
 </table>
 
@@ -607,7 +607,7 @@ Good vid, lots of PvP action.<br />
 16mb Video<br />
 Transport ships <b>CAN</b> be cool! Ishukone promotion vid.<br />
 </p>
-</td>      
+</td>
 </tr>
 </table>
 
