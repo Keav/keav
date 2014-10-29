@@ -1,0 +1,38 @@
+A {
+   font-family : "Times New Roman", "Verdana", "Arial", "Helvetica", Sans-serif;
+   text-decoration : none;}
+
+
+A:visited {
+   color : #FFFF00;
+   background : transparent;
+   text-decoration : none; }
+
+A:link {
+   color : #FFFF00;
+   background : transparent;
+   text-decoration : none; }
+
+
+A:hover {
+   color : #FF0000;
+   background : transparent;
+   text-decoration : underline; }
+
+
+A:active {
+   color : #FF0000;
+   background : transparent;
+   text-decoration : none; }
+
+
+.reg {
+   font-size : medium;}
+
+
+BODY {
+   background : #660099
+   font-family : "Times New Roman", "Verdana", "Georgia", "Times", Serif;
+   color : #FFFF00;
+   margin: 0em 0em 0em 0em}
+

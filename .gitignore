@@ -234,3 +234,5 @@ BingSiteAuth.xml
 node_modules/
 !robots.txt
 .sass-cache
+config.php
+wp-config.php
