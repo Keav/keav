@@ -1,6 +1,6 @@
 {
   "name": "keav.net",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "My personal website",
   "private": true,
   "homepage": "http://keav.net",
@@ -17,6 +17,7 @@
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-autoprefixer": "^1.0.1",
+    "grunt-bump": "0.0.16",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-compass": "^1.0.1",
     "grunt-contrib-connect": "^0.8.0",
