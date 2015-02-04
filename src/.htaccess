@@ -14,6 +14,21 @@ RewriteCond %{HTTP_HOST} ^keav\.co\.uk$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.keav\.co\.uk$
 RewriteRule ^/?$ "http\:\/\/keav\.net\/" [R=301,L]
 
+# Useful to temporarily redirect to a maintenance page while the main site is updated. Or an alternative temporary copy of the website to be replaced.
+
+# Simple visible redirect
+#RewriteRule ^$ octopress [L]
+
+## Invisible redirect ##
+# URL with no path
+#RewriteCond %{REQUEST_URI}  ^/?$        [NC]
+##RewriteCond %{REQUEST_URI}  !index\.php [NC]
+#RewriteRule .*  /octopress/  [NC,L]
+
+# URL with path
+#RewriteCond %{REQUEST_URI}  !^/octopress     [NC]
+#RewriteRule ^(.+)  /octopress/$1             [NC,L]
+
 <IfModule mod_headers.c>
     Header set X-UA-Compatible "IE=edge,chrome=1"
     <FilesMatch "\.(appcache|atom|crx|css|cur|eot|f4[abpv]|flv|geojson|gif|htc|ico|jpe?g|js|json(ld)?|m4[av]|manifest|map|mp4|oex|og[agv]|opus|otf|pdf|png|rdf|rss|safariextz|svgz?|swf|topojson|tt[cf]|txt|vcf|vtt|webapp|web[mp]|woff2?|xml|xpi)$">
