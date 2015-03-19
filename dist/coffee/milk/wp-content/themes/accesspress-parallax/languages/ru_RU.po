@@ -1,0 +1,1319 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AccessPress Parallax v1.16\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-02-04 18:03:40+0000\n"
+"Last-Translator: admin <pavstyuk@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:15
+#@ accesspress_parallax
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Не могу найти такой страницы. Странно..."
+
+#: archive.php:27
+#, php-format
+#@ accesspress_parallax
+msgid "Author: %s"
+msgstr "Редактор: %s"
+
+#: archive.php:30
+#, php-format
+#@ accesspress_parallax
+msgid "Day: %s"
+msgstr "День: %s"
+
+#: archive.php:33
+#, php-format
+#@ accesspress_parallax
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+#: archive.php:33
+#@ accesspress_parallax
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:36
+#, php-format
+#@ accesspress_parallax
+msgid "Year: %s"
+msgstr "Год: %s"
+
+#: archive.php:36
+#@ accesspress_parallax
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:39
+#@ accesspress_parallax
+msgid "Asides"
+msgstr "Резервы"
+
+#: archive.php:42
+#@ accesspress_parallax
+msgid "Galleries"
+msgstr "Галереи"
+
+#: archive.php:45
+#@ accesspress_parallax
+msgid "Images"
+msgstr "Изображения"
+
+#: archive.php:48
+#@ accesspress_parallax
+msgid "Videos"
+msgstr "Видео"
+
+#: archive.php:51
+#@ accesspress_parallax
+msgid "Quotes"
+msgstr "Цитаты"
+
+#: archive.php:54
+#@ accesspress_parallax
+msgid "Links"
+msgstr "Ссылки"
+
+#: archive.php:57
+#@ accesspress_parallax
+msgid "Statuses"
+msgstr "Состояния"
+
+#: archive.php:60
+#@ accesspress_parallax
+msgid "Audios"
+msgstr "Аудио"
+
+#: archive.php:63
+#@ accesspress_parallax
+msgid "Chats"
+msgstr "Чаты"
+
+#: archive.php:66
+#@ accesspress_parallax
+msgid "Archives"
+msgstr "Архивы"
+
+#: comments.php:28
+#, php-format
+#@ accesspress_parallax
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Один комментарий на тему &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментария на тему &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s комментариев на тему &ldquo;%2$s&rdquo;"
+
+#: comments.php:35
+#: comments.php:52
+#@ accesspress_parallax
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: comments.php:36
+#: comments.php:53
+#@ accesspress_parallax
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущий комментарий"
+
+#: comments.php:37
+#: comments.php:54
+#@ accesspress_parallax
+msgid "Newer Comments &rarr;"
+msgstr "Следующий комментарий &rarr;"
+
+#: comments.php:64
+#@ accesspress_parallax
+msgid "Comments are closed."
+msgstr "Комментарии не доступны."
+
+#: content-none.php:13
+#@ accesspress_parallax
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: content-none.php:19
+#, php-format
+#@ accesspress_parallax
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свой первый пост? <a href=\"%1$s\">Начни отсюда</a>."
+
+#: content-none.php:23
+#@ accesspress_parallax
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, но ничего не найдено по вашему запросу. Пожалуйста, попробуйте еще раз с другими ключевыми словами."
+
+#: content-none.php:28
+#@ accesspress_parallax
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "По все видимости мы не можем найти то, то вы ищите. Постарайтесь еще. "
+
+#: content-page.php:18
+#: content.php:35
+#: content-single.php:31
+#@ accesspress_parallax
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: content-page.php:24
+#: content-search.php:53
+#: content-single.php:73
+#@ accesspress_parallax
+msgid "Edit"
+msgstr "Редактировать"
+
+#: content.php:32
+#@ accesspress_parallax
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать дальше <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: used between list items, there is a space after the comma
+#: content.php:45
+#: content.php:55
+#: content-search.php:30
+#: content-search.php:40
+#: content-single.php:41
+#: content-single.php:44
+#@ accesspress_parallax
+msgid ", "
+msgstr ""
+
+#: content.php:49
+#, php-format
+#@ accesspress_parallax
+msgid "<i class=\"fa fa-folder-open\"></i>Posted in %1$s"
+msgstr "<i class=\"fa fa-folder-open\"></i>Опубликованно в %1$s"
+
+#: content.php:59
+#, php-format
+#@ accesspress_parallax
+msgid "<i class=\"fa fa-tags\"></i>Tagged %1$s"
+msgstr "<i class=\"fa fa-tags\"></i>Тег: %1$s"
+
+#: content.php:65
+#@ accesspress_parallax
+msgid "<i class=\"fa fa-comments\"></i>Leave a comment"
+msgstr "<i class=\"fa fa-comments\"></i>Оставить комментарий"
+
+#: content.php:65
+#@ accesspress_parallax
+msgid "<i class=\"fa fa-comments\"></i>1 Comment"
+msgstr "<i class=\"fa fa-comments\"></i>1 Комментарий"
+
+#: content.php:65
+#@ accesspress_parallax
+msgid "<i class=\"fa fa-comments\"></i>% Comments"
+msgstr "<i class=\"fa fa-comments\"></i>% Комментария"
+
+#: content.php:68
+#@ accesspress_parallax
+msgid "<i class=\"fa fa-pencil-square-o\"></i>Edit"
+msgstr "<i class=\"fa fa-pencil-square-o\"></i>Редактировать"
+
+#: content-search.php:34
+#, php-format
+#@ accesspress_parallax
+msgid "Posted in %1$s"
+msgstr "Опубликованно в %1$s"
+
+#: content-search.php:44
+#, php-format
+#@ accesspress_parallax
+msgid "Tagged %1$s"
+msgstr "Те: %1$s"
+
+#: content-search.php:50
+#@ accesspress_parallax
+msgid "Leave a comment"
+msgstr "Комментировать"
+
+#: content-search.php:50
+#@ accesspress_parallax
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: content-search.php:50
+#@ accesspress_parallax
+msgid "% Comments"
+msgstr "% Комментария"
+
+#: content-single.php:49
+#, php-format
+#@ accesspress_parallax
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Эта запись была отмечена тегом %2$s. Закладка <a href=\"%3$s\" rel=\"bookmark\">ссылка</a>."
+
+#: content-single.php:51
+#, php-format
+#@ accesspress_parallax
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Закладка <a href=\"%3$s\" rel=\"bookmark\">ссылка</a>."
+
+#: content-single.php:57
+#, php-format
+#@ accesspress_parallax
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Эта запись была опубликована в %1$s и отмечена тегом %2$s. Закладка <a href=\"%3$s\" rel=\"bookmark\">ссылка</a>."
+
+#: content-single.php:59
+#, php-format
+#@ accesspress_parallax
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Запись опубликована в %1$s. Закладка <a href=\"%3$s\" rel=\"bookmark\">ссылка</a>."
+
+#: demo.php:6
+#@ accesspress_parallax
+msgid "Curabitur eget interdum risus. Curabitur dictum, libero ut mattis consequat, lectus mauris congue risus, et volutpat nulla eros vel arcu."
+msgstr ""
+
+#: demo.php:16
+#: demo.php:28
+#: demo.php:40
+#: demo.php:52
+#: demo.php:64
+#: demo.php:76
+#: demo.php:89
+#@ accesspress_parallax
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis."
+msgstr ""
+
+#: demo.php:98
+#@ accesspress_parallax
+msgid "Product 11"
+msgstr "Продукт 11"
+
+#: demo.php:105
+#@ accesspress_parallax
+msgid "Product 10"
+msgstr "Продукт 10"
+
+#: demo.php:112
+#@ accesspress_parallax
+msgid "Product 9"
+msgstr "Продукт 9"
+
+#: demo.php:119
+#@ accesspress_parallax
+msgid "Product 8"
+msgstr "Продукт 8"
+
+#: demo.php:126
+#@ accesspress_parallax
+msgid "Product 7"
+msgstr "Продукт 7"
+
+#: demo.php:133
+#@ accesspress_parallax
+msgid "Product 6"
+msgstr "Продукт 6"
+
+#: demo.php:140
+#@ accesspress_parallax
+msgid "Product 5"
+msgstr "Продукт 5"
+
+#: demo.php:147
+#@ accesspress_parallax
+msgid "Product 4"
+msgstr "Продукт 4"
+
+#: demo.php:191
+#@ accesspress_parallax
+msgid "Russel Clinton"
+msgstr "Рассел Клинтон"
+
+#: demo.php:192
+#@ accesspress_parallax
+msgid "Interior Head"
+msgstr ""
+
+#: demo.php:193
+#@ accesspress_parallax
+msgid ""
+"Duis luctus nisl vel rhoncus rhoncus. Nam vehicula maximus sagittis. Proin quis lobortis nisi. Etiam luctus auctor urna, a luctus metus blandit in. Nam quis facilisis nunc, nec scelerisque ligula. Aenean quis lacus bibendum, lobortis dolor sed, facilisis ipsum. Nunc feugiat augue ac ligula blandit, id maximus purus molestie.<br /><br />\n"
+"                                Duis luctus nisl vel rhoncus rhoncus. Nam vehicula maximus sagittis. Proin quis lobortis nisi. Etiam luctus auctor urna, a luctus metus blandit in. Nam quis facilisis nunc, nec scelerisque ligula. Aenean quis lacus bibendum, lobortis dolor sed, facilisis ipsum. Nunc feugiat augue ac ligula blandit, id maximus purus molestie."
+msgstr ""
+
+#: demo.php:202
+#@ accesspress_parallax
+msgid "Bibo Aurther"
+msgstr ""
+
+#: demo.php:203
+#@ accesspress_parallax
+msgid "CEO"
+msgstr ""
+
+#: demo.php:204
+#@ accesspress_parallax
+msgid ""
+"Proin libero odio, ultrices et tincidunt vitae, consequat et sapien. Duis luctus nisl vel rhoncus rhoncus. Nam vehicula maximus sagittis. Proin quis lobortis nisi. Etiam luctus auctor urna, a luctus metus blandit in. Nam quis facilisis nunc, nec scelerisque ligula. Aenean quis lacus bibendum, lobortis dolor sed, facilisis ipsum. Nunc feugiat augue ac ligula blandit, id maximus purus molestie.<br /><br />\n"
+"                                Proin libero odio, ultrices et tincidunt vitae, consequat et sapien. Duis luctus nisl vel rhoncus rhoncus. Nam vehicula maximus sagittis. Proin quis lobortis nisi. Etiam luctus auctor urna, a luctus metus blandit in. Nam quis facilisis nunc, nec scelerisque ligula. Aenean quis lacus bibendum, lobortis dolor sed, facilisis ipsum. Nunc feugiat augue ac ligula blandit, id maximus purus molestie."
+msgstr ""
+
+#: demo.php:213
+#@ accesspress_parallax
+msgid "Rusel Misil"
+msgstr ""
+
+#: demo.php:214
+#@ accesspress_parallax
+msgid "Technician"
+msgstr ""
+
+#: demo.php:215
+#@ accesspress_parallax
+msgid ""
+"Etiam vestibulum pellentesque nisi, ac scelerisque metus aliquam non. Proin tincidunt tortor auctor, accumsan arcu id, congue felis. Curabitur vitae lorem at purus imperdiet commodo quis non sem. Donec magna odio, commodo eget rhoncus quis, facilisis et dolor.<br /><br />\n"
+"                                Proin libero odio, ultrices et tincidunt vitae, consequat et sapien. Duis luctus nisl vel rhoncus rhoncus. Nam vehicula maximus sagittis. Proin quis lobortis nisi. Etiam luctus auctor urna, a luctus metus blandit in. Nam quis facilisis nunc, nec scelerisque ligula. Aenean quis lacus bibendum, lobortis dolor sed, facilisis ipsum. Nunc feugiat augue ac ligula blandit, id maximus purus molestie."
+msgstr ""
+
+#: demo.php:224
+#@ accesspress_parallax
+msgid "Linda Harley"
+msgstr ""
+
+#: demo.php:225
+#: demo.php:236
+#@ accesspress_parallax
+msgid "Staff"
+msgstr ""
+
+#: demo.php:226
+#@ accesspress_parallax
+msgid ""
+"Nulla facilisis sapien dui, vel faucibus risus consequat sit amet. Phasellus vestibulum vestibulum mi quis posuere. Aenean pretium purus ut purus vehicula dictum. Morbi elementum dignissim aliquet. Nullam et purus et mi finibus laoreet. Aliquam posuere erat eu lobortis vulputate. Phasellus pulvinar fringilla turpis in congue. Integer et felis fringilla, elementum lacus eu, tincidunt purus.<br/><br />\n"
+"                            Nulla facilisis sapien dui, vel faucibus risus consequat sit amet. Phasellus vestibulum vestibulum mi quis posuere. Aenean pretium purus ut purus vehicula dictum. Morbi elementum dignissim aliquet. Nullam et purus et mi finibus laoreet. Aliquam posuere erat eu lobortis vulputate. Phasellus pulvinar fringilla turpis in congue. Integer et felis fringilla, elementum lacus eu, tincidunt purus."
+msgstr ""
+
+#: demo.php:235
+#@ accesspress_parallax
+msgid "John Doe"
+msgstr ""
+
+#: demo.php:237
+#@ accesspress_parallax
+msgid ""
+"Donec ut neque placerat, euismod enim et, sodales magna. Sed sit amet nunc ullamcorper, semper nunc mattis, scelerisque urna. Donec dictum mattis malesuada. Suspendisse vestibulum enim eu nisi auctor, a mollis odio posuere. Ut scelerisque luctus arcu id tempus.<br/><br />\n"
+"                            Nulla facilisis sapien dui, vel faucibus risus consequat sit amet. Phasellus vestibulum vestibulum mi quis posuere. Aenean pretium purus ut purus vehicula dictum. Morbi elementum dignissim aliquet. Nullam et purus et mi finibus laoreet. Aliquam posuere erat eu lobortis vulputate. Phasellus pulvinar fringilla turpis in congue. Integer et felis fringilla, elementum lacus eu, tincidunt purus."
+msgstr ""
+
+#: demo.php:246
+#@ accesspress_parallax
+msgid "Jakson Biber"
+msgstr ""
+
+#: demo.php:247
+#@ accesspress_parallax
+msgid "Marketing Executive"
+msgstr ""
+
+#: demo.php:248
+#@ accesspress_parallax
+msgid ""
+"Fusce imperdiet enim eget neque auctor, venenatis feugiat neque dapibus. Nulla consequat, nunc sed vestibulum semper, nibh velit pellentesque lectus, ac lobortis elit massa hendrerit lacus. Nulla facilisis sapien dui, vel faucibus risus consequat sit amet. Phasellus vestibulum vestibulum mi quis posuere.<br/><br />\n"
+"                            Fusce imperdiet enim eget neque auctor, venenatis feugiat neque dapibus. Nulla consequat, nunc sed vestibulum semper, nibh velit pellentesque lectus, ac lobortis elit massa hendrerit lacus. Nulla facilisis sapien dui, vel faucibus risus consequat sit amet. Phasellus vestibulum vestibulum mi quis posuere."
+msgstr ""
+
+#: demo.php:257
+#@ accesspress_parallax
+msgid "Jack Peterson"
+msgstr ""
+
+#: demo.php:258
+#@ accesspress_parallax
+msgid "Sales Executive"
+msgstr ""
+
+#: demo.php:259
+#@ accesspress_parallax
+msgid ""
+"Donec ut neque placerat, euismod enim et, sodales magna. Sed sit amet nunc ullamcorper, semper nunc mattis, scelerisque urna. Donec dictum mattis malesuada. Suspendisse vestibulum enim eu nisi auctor, a mollis odio posuere. Ut scelerisque luctus arcu id tempus.<br/><br />\n"
+"                            Donec ut neque placerat, euismod enim et, sodales magna. Sed sit amet nunc ullamcorper, semper nunc mattis, scelerisque urna. Donec dictum mattis malesuada. Suspendisse vestibulum enim eu nisi auctor, a mollis odio posuere. Ut scelerisque luctus arcu id tempus."
+msgstr ""
+
+#: demo.php:275
+#@ accesspress_parallax
+msgid "Testimonials"
+msgstr "Цитаты"
+
+#: demo.php:281
+#@ accesspress_parallax
+msgid "Thanks for delivering top quality services to your clients. It just takes a minute to get an answer from you when in difficulties. I use the chat service and I can say that the AccessPress Themes staff knows how to shorten the physical distance to its clients.<br />Thanks again for making our experience with AccessPress Themes the best one online!"
+msgstr ""
+
+#: demo.php:283
+#@ accesspress_parallax
+msgid "Yanetxys Torreblanca"
+msgstr ""
+
+#: demo.php:289
+#@ accesspress_parallax
+msgid "Thank you very much the support team accesspress lite for service, are really wonderful in their care and in the resolution of the problem. Congratulations to facebook chat and Junu team."
+msgstr ""
+
+#: demo.php:291
+#@ accesspress_parallax
+msgid "David Soriano"
+msgstr ""
+
+#: demo.php:297
+#@ accesspress_parallax
+msgid ""
+"Great Customer service and technical assistance!!!<br />\n"
+"                                The template is really good and nice, definitely worth going PRO"
+msgstr ""
+
+#: demo.php:300
+#@ accesspress_parallax
+msgid "Stefano Roganti"
+msgstr ""
+
+#: demo.php:315
+#@ accesspress_parallax
+msgid "Read our latest blog"
+msgstr ""
+
+#: demo.php:324
+#@ accesspress_parallax
+msgid "Nulla pretium leo ac congue"
+msgstr ""
+
+#: demo.php:325
+#@ accesspress_parallax
+msgid "December 26, 2014"
+msgstr ""
+
+#: demo.php:326
+#@ accesspress_parallax
+msgid "Nulla pretium leo ac congue molestie. Aliquam ac velit laoreet, consectetur elit pulvinar, elementum lorem. Duis sed venenatis eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices po... "
+msgstr ""
+
+#: demo.php:327
+#: demo.php:338
+#: demo.php:349
+#@ accesspress_parallax
+msgid "Read More"
+msgstr "Читать далее"
+
+#: demo.php:335
+#@ accesspress_parallax
+msgid "Pellentesque cursus dolor quis"
+msgstr ""
+
+#: demo.php:336
+#: demo.php:347
+#@ accesspress_parallax
+msgid "September 9, 2014"
+msgstr ""
+
+#: demo.php:337
+#@ accesspress_parallax
+msgid "Nullam faucibus mi at quam mattis egestas. Ut dapibus lectus at risus rhoncus finibus. Pellentesque sem risus, suscipit iaculis ex in, rutrum sodales enim. Vivamus non mauris tortor. Maecenas tellus n... "
+msgstr ""
+
+#: demo.php:346
+#@ accesspress_parallax
+msgid "Lorem ipsum dolor"
+msgstr ""
+
+#: demo.php:348
+#@ accesspress_parallax
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut ... "
+msgstr ""
+
+#: demo.php:354
+#@ accesspress_parallax
+msgid "Read All"
+msgstr "Читать все"
+
+#: demo.php:362
+#@ accesspress_parallax
+msgid "For News and Updates Subscribe us"
+msgstr "Оформите подписку на новости и обновления "
+
+#: demo.php:365
+#@ accesspress_parallax
+msgid "Here can be some text as well"
+msgstr "Здесь может быть также немного текста"
+
+#: demo.php:366
+#@ accesspress_parallax
+msgid "Subscribe Us"
+msgstr "Подпишитесь на нас"
+
+#: demo.php:400
+#@ accesspress_parallax
+msgid "AccessPress Themes"
+msgstr "Тема AccessPress"
+
+#: demo.php:401
+#@ accesspress_parallax
+msgid "5th Floor, Mathuri Sadan"
+msgstr ""
+
+#: demo.php:402
+#@ accesspress_parallax
+msgid "Rabi Bhawan, Kathmandu - Nepal"
+msgstr ""
+
+#: demo.php:404
+#: inc/accesspress-options.php:107
+#@ accesspress_parallax
+msgid "General enquiries:"
+msgstr "Общие вопросы:"
+
+#: demo.php:405
+#: inc/accesspress-options.php:108
+#@ accesspress_parallax
+msgid "Support:"
+msgstr "Поддержка:"
+
+#: demo.php:407
+#@ accesspress_parallax
+msgid "Skype: access-keys"
+msgstr ""
+
+#: footer.php:53
+#@ accesspress_parallax
+msgid "  "
+msgstr " "
+
+#: functions.php:49
+#@ accesspress_parallax
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: functions.php:84
+#@ accesspress_parallax
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: functions.php:94
+#@ accesspress_parallax
+msgid "Footer One"
+msgstr "Подвал один"
+
+#: functions.php:104
+#@ accesspress_parallax
+msgid "Footer Two"
+msgstr "Подвал два"
+
+#: functions.php:114
+#@ accesspress_parallax
+msgid "Footer Three"
+msgstr "Подвал три"
+
+#: functions.php:124
+#@ accesspress_parallax
+msgid "Footer Four"
+msgstr "Подвал четыри"
+
+#: header.php:42
+#@ accesspress_parallax
+msgid "Menu"
+msgstr "Меню "
+
+#: inc/accesspress-functions.php:63
+#, php-format
+#@ accesspress_parallax
+msgid "Page %s"
+msgstr "Страница %s "
+
+#: inc/accesspress-options.php:29
+#@ accesspress_parallax
+msgid "Fade"
+msgstr "Угасание"
+
+#: inc/accesspress-options.php:30
+#@ accesspress_parallax
+msgid "Slide Horizontal"
+msgstr "Горизонтальное перекрытие"
+
+#: inc/accesspress-options.php:31
+#@ accesspress_parallax
+msgid "Slide Vertical"
+msgstr "Вертикальное перекрытие"
+
+#: inc/accesspress-options.php:35
+#: inc/options-framework/includes/class-options-sanitization.php:494
+#@ accesspress_parallax
+#@ options-framework
+msgid "Overlay 1"
+msgstr "Наложение 1"
+
+#: inc/accesspress-options.php:36
+#: inc/options-framework/includes/class-options-sanitization.php:495
+#@ accesspress_parallax
+#@ options-framework
+msgid "Overlay 2"
+msgstr "Наложение 2"
+
+#: inc/accesspress-options.php:37
+#: inc/options-framework/includes/class-options-sanitization.php:496
+#@ accesspress_parallax
+#@ options-framework
+msgid "Overlay 3"
+msgstr "Наложение 3"
+
+#: inc/accesspress-options.php:38
+#: inc/options-framework/includes/class-options-sanitization.php:497
+#@ options-framework
+msgid "Overlay 4"
+msgstr ""
+
+#: inc/accesspress-options.php:42
+#: inc/options-framework/includes/class-options-sanitization.php:473
+#@ accesspress_parallax
+msgid "Default Section"
+msgstr "Раздел по умолчанию"
+
+#: inc/accesspress-options.php:43
+#: inc/options-framework/includes/class-options-sanitization.php:474
+#@ accesspress_parallax
+msgid "Service Section"
+msgstr "Раздел Услуги"
+
+#: inc/accesspress-options.php:44
+#: inc/options-framework/includes/class-options-sanitization.php:475
+#@ accesspress_parallax
+msgid "Team Section"
+msgstr "Раздел Команда"
+
+#: inc/accesspress-options.php:45
+#: inc/options-framework/includes/class-options-sanitization.php:476
+#@ accesspress_parallax
+msgid "Portfolio Section"
+msgstr "Раздел Портфолио"
+
+#: inc/accesspress-options.php:46
+#: inc/options-framework/includes/class-options-sanitization.php:477
+#@ accesspress_parallax
+msgid "Testimonial Section"
+msgstr "Раздел Отзывы"
+
+#: inc/accesspress-options.php:47
+#: inc/options-framework/includes/class-options-sanitization.php:478
+#@ accesspress_parallax
+msgid "Blog Section"
+msgstr "Раздел Блог"
+
+#: inc/accesspress-options.php:48
+#: inc/options-framework/includes/class-options-sanitization.php:479
+#@ accesspress_parallax
+msgid "Call to Action Section"
+msgstr "Раздел Сделай Звонок"
+
+#: inc/accesspress-options.php:49
+#: inc/options-framework/includes/class-options-sanitization.php:480
+#@ accesspress_parallax
+msgid "Google Map Section"
+msgstr "Раздел Карты Google"
+
+#: inc/accesspress-options.php:50
+#: inc/options-framework/includes/class-options-sanitization.php:481
+#@ accesspress_parallax
+msgid "Blank Section"
+msgstr "Раздел Пустой"
+
+#: inc/accesspress-options.php:54
+#@ accesspress_parallax
+msgid "Yes"
+msgstr "Да"
+
+#: inc/accesspress-options.php:55
+#@ accesspress_parallax
+msgid "No"
+msgstr "Нет"
+
+#: inc/accesspress-options.php:59
+#@ accesspress_parallax
+msgid "One"
+msgstr "Один"
+
+#: inc/accesspress-options.php:60
+#@ accesspress_parallax
+msgid "Two"
+msgstr "Два"
+
+#: inc/accesspress-options.php:61
+#@ accesspress_parallax
+msgid "Three"
+msgstr "Три"
+
+#: inc/accesspress-options.php:62
+#@ accesspress_parallax
+msgid "Four"
+msgstr "Четыри"
+
+#: inc/accesspress-options.php:63
+#@ accesspress_parallax
+msgid "Five"
+msgstr "Пять"
+
+#: inc/accesspress-options.php:68
+#@ accesspress_parallax
+msgid "French Toast"
+msgstr "Французский тост"
+
+#: inc/accesspress-options.php:69
+#@ accesspress_parallax
+msgid "Pancake"
+msgstr "Оладь"
+
+#: inc/accesspress-options.php:70
+#@ accesspress_parallax
+msgid "Omelette"
+msgstr "Омлет"
+
+#: inc/accesspress-options.php:71
+#@ accesspress_parallax
+msgid "Crepe"
+msgstr "Креп"
+
+#: inc/accesspress-options.php:72
+#@ accesspress_parallax
+msgid "Waffle"
+msgstr "Вафля"
+
+#: inc/accesspress-options.php:94
+#@ default
+msgid "AccessPress Parallax is a beautiful WordPress theme with Parallax design. Parallax design has become popular and is being adopted because 3D effects are possible with it, you can add some sphere to your product, it is the best way of storytelling, you can draw your visitors in, it is interactive, engaging, makes your visitors curious, fun, surprise, effective to trigger action, invite your visitors in great Call to Action, great conversion rates and many more. This is probably the most beautiful, feature rich and complete free WordPress parallax theme with features like: fully responsive, advance theme option panel, featured slider, advance post settings, services/team/blog/portfolio/testimonial layout, Google map integration, custom logo/fav icon, call to action, CSS animation, SEO friendly, translation ready, RTL support, custom CSS/JS and more! "
+msgstr ""
+
+#: inc/accesspress-options.php:95
+#@ accesspress_parallax
+msgid "- A WordPress Division of Access Keys."
+msgstr "Узнайте подробней"
+
+#: inc/accesspress-options.php:99
+#@ accesspress_parallax
+msgid "Other products by AccessPressThemes"
+msgstr "Дпугие продукты от AccessPressThemes"
+
+#: inc/accesspress-options.php:100
+#@ accesspress_ray
+msgid "Our Themes - "
+msgstr ""
+
+#: inc/accesspress-options.php:101
+#@ accesspress_ray
+msgid "Our Plugins - "
+msgstr ""
+
+#: inc/accesspress-options.php:105
+#@ accesspress_parallax
+msgid "Get in touch"
+msgstr "Оставаться на связи"
+
+#: inc/accesspress-options.php:106
+#@ accesspress_parallax
+msgid "If you have any question/feedback, please get in touch:"
+msgstr "Если у вас есть вопросы или отзывы, пожалуйста свяжитесь с нами:"
+
+#: inc/accesspress-options.php:109
+#@ accesspress_parallax
+msgid "Sales:"
+msgstr "Продажи: "
+
+#: inc/accesspress-options.php:113
+#@ accesspress_parallax
+msgid "Get social"
+msgstr "Социальные кнопки"
+
+#: inc/accesspress-options.php:115
+#@ accesspress_parallax
+msgid "Get connected with us on social media. Facebook is the best place to find updates on our themes/plugins:"
+msgstr "Подключайтесь к нам в социальных сетях. Facebook является лучшим местом для поиска новостей о наших темах и  плагинах:"
+
+#: inc/accesspress-options.php:117
+#@ accesspress_parallax
+msgid "Like us on facebook:"
+msgstr "Лайкните нас на Facebooke:"
+
+#: inc/accesspress-options.php:151
+#@ accesspress_parallax
+msgid "General Settings"
+msgstr "Основные настройки"
+
+#: inc/accesspress-options.php:155
+#@ accesspress_parallax
+msgid "Enable Parallax"
+msgstr "Включить Параллакс"
+
+#: inc/accesspress-options.php:156
+#: inc/accesspress-options.php:163
+#: inc/accesspress-options.php:170
+#: inc/accesspress-options.php:243
+#: inc/accesspress-options.php:250
+#: inc/accesspress-options.php:257
+#: inc/accesspress-options.php:264
+#: inc/accesspress-options.php:349
+#@ accesspress_parallax
+msgid "Check To enable"
+msgstr "Отметить чтобы включить"
+
+#: inc/accesspress-options.php:162
+#@ accesspress_parallax
+msgid "Enable Animation on scroll"
+msgstr "Включить анимацию при прокрутке"
+
+#: inc/accesspress-options.php:169
+#@ accesspress_parallax
+msgid "Enable Responsive"
+msgstr "Включить адаптивность"
+
+#: inc/accesspress-options.php:177
+#@ accesspress_parallax
+msgid "Upload Logo"
+msgstr "Загрузить Логотип"
+
+#: inc/accesspress-options.php:178
+#: inc/options-framework/includes/class-options-media-uploader.php:66
+#: inc/options-framework/includes/class-options-media-uploader.php:119
+#@ accesspress_parallax
+#@ textdomain
+msgid "Upload"
+msgstr "Загрузить"
+
+#: inc/accesspress-options.php:182
+#@ accesspress_parallax
+msgid "Upload Fav Icon"
+msgstr "Загрузить Favicon"
+
+#: inc/accesspress-options.php:198
+#@ accesspress_parallax
+msgid "Google Map"
+msgstr "Карты Goolge"
+
+#: inc/accesspress-options.php:199
+#, php-format
+#@ accesspress_parallax
+msgid "To get Values of Latitude and Longitude by Location name, click on <a href=\"%s\">http://www.latlong.net</a>"
+msgstr "Чтобы получить значения широты и долготы по названию места, нажмите на <a href=\"%s\">http://www.latlong.net</a>"
+
+#: inc/accesspress-options.php:204
+#@ accesspress_parallax
+msgid "Enter the latitude"
+msgstr "Введите широту"
+
+#: inc/accesspress-options.php:211
+#@ accesspress_parallax
+msgid "Enter the longitude"
+msgstr "Введите долготу"
+
+#: inc/accesspress-options.php:218
+#@ accesspress_parallax
+msgid "Parallax Settings"
+msgstr "Настройки Параллакса"
+
+#: inc/accesspress-options.php:238
+#@ accesspress_parallax
+msgid "Post Settings"
+msgstr "Настройки записей"
+
+#: inc/accesspress-options.php:242
+#@ accesspress_parallax
+msgid "Show Posted Date"
+msgstr "Показывать дату публикации"
+
+#: inc/accesspress-options.php:249
+#@ accesspress_parallax
+msgid "Show Post Author"
+msgstr "Показывать автора записи"
+
+#: inc/accesspress-options.php:256
+#@ accesspress_parallax
+msgid "Show Post Footer text"
+msgstr "Показывать текст под записью"
+
+#: inc/accesspress-options.php:263
+#@ accesspress_parallax
+msgid "Show Prev Next Pagination"
+msgstr "Показывать \\\"Вперед\\\" \\\"Назад\\\" под постом"
+
+#: inc/accesspress-options.php:271
+#@ accesspress_parallax
+msgid "Slider Settings"
+msgstr "Настройки Слайдера"
+
+#: inc/accesspress-options.php:275
+#@ accesspress_parallax
+msgid "Show Slider"
+msgstr "Показывать слайдер"
+
+#: inc/accesspress-options.php:283
+#@ accesspress_parallax
+msgid "Select a Category"
+msgstr "Выбрать Категорию"
+
+#: inc/accesspress-options.php:290
+#@ accesspress_parallax
+msgid "Show full window"
+msgstr "Показывать во все окно"
+
+#: inc/accesspress-options.php:297
+#@ accesspress_parallax
+msgid "Show Pager"
+msgstr "Показывать Пейджер"
+
+#: inc/accesspress-options.php:304
+#@ accesspress_parallax
+msgid "Show Controls"
+msgstr "Показывать Управление"
+
+#: inc/accesspress-options.php:311
+#@ accesspress_parallax
+msgid "Auto Transition"
+msgstr "Авто Переход"
+
+#: inc/accesspress-options.php:318
+#@ accesspress_parallax
+msgid "Slider Transition"
+msgstr "Смена Слайдов"
+
+#: inc/accesspress-options.php:325
+#@ accesspress_parallax
+msgid "Slider Transition Speed"
+msgstr "Скорость Смены Слайдов"
+
+#: inc/accesspress-options.php:331
+#@ accesspress_parallax
+msgid "Slider Pause Duration"
+msgstr "Пауза между слайдами"
+
+#: inc/accesspress-options.php:337
+#@ accesspress_parallax
+msgid "Show Caption"
+msgstr "Показывать подпись"
+
+#: inc/accesspress-options.php:344
+#@ accesspress_parallax
+msgid "Social Links"
+msgstr "Социальные кнопки"
+
+#: inc/accesspress-options.php:348
+#@ accesspress_parallax
+msgid "Show Social Icon"
+msgstr "Показывать социальные кнопки"
+
+#: inc/accesspress-options.php:355
+#@ accesspress_parallax
+msgid "Facebook"
+msgstr ""
+
+#: inc/accesspress-options.php:360
+#@ accesspress_parallax
+msgid "Twitter"
+msgstr ""
+
+#: inc/accesspress-options.php:365
+#@ accesspress_parallax
+msgid "Google Plus"
+msgstr ""
+
+#: inc/accesspress-options.php:370
+#@ accesspress_parallax
+msgid "Youtube"
+msgstr ""
+
+#: inc/accesspress-options.php:375
+#@ accesspress_parallax
+msgid "Pinterest"
+msgstr ""
+
+#: inc/accesspress-options.php:380
+#@ accesspress_parallax
+msgid "Linkedin"
+msgstr ""
+
+#: inc/accesspress-options.php:385
+#@ accesspress_parallax
+msgid "Fickr"
+msgstr ""
+
+#: inc/accesspress-options.php:390
+#@ accesspress_parallax
+msgid "Vimeo"
+msgstr ""
+
+#: inc/accesspress-options.php:395
+#@ accesspress_parallax
+msgid "Instagram"
+msgstr ""
+
+#: inc/accesspress-options.php:400
+#@ accesspress_parallax
+msgid "Skype"
+msgstr ""
+
+#: inc/accesspress-options.php:405
+#@ accesspress_parallax
+msgid "Tools"
+msgstr "Инструменты"
+
+#: inc/accesspress-options.php:409
+#@ accesspress_parallax
+msgid "Custom CSS"
+msgstr "Свой CSS"
+
+#: inc/accesspress-options.php:415
+#@ accesspress_parallax
+msgid "Custom JS"
+msgstr "Свой JS"
+
+#: inc/accesspress-options.php:421
+#@ accesspress_parallax
+msgid "About"
+msgstr "О нас"
+
+#: inc/accesspress-options.php:425
+#@ accesspress_parallax
+msgid "About AccessPress Themes"
+msgstr "Подробнее об AccessPress Themes"
+
+#: inc/options-framework/includes/class-options-framework-admin.php:77
+#@ accesspress_parallax
+msgid "Theme Options"
+msgstr "Настройки Темы"
+
+#: inc/options-framework/includes/class-options-framework-admin.php:172
+#@ accesspress_parallax
+msgid "AccessPress Lite"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-framework-admin.php:176
+#@ accesspress_parallax
+msgid "Follow us for new updates"
+msgstr "Следите за новыми обновлениями"
+
+#: inc/options-framework/includes/class-options-framework-admin.php:200
+#@ accesspress_parallax
+msgid "Save Options"
+msgstr "Сохранить Настройки"
+
+#: inc/options-framework/includes/class-options-framework-admin.php:201
+#@ accesspress_parallax
+msgid "Restore Defaults"
+msgstr "Восстановить по умолчанию"
+
+#: inc/options-framework/includes/class-options-framework-admin.php:201
+#@ accesspress_parallax
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Нажмите кнопку OK, чтобы сбросить. Все настройки темы будут потеряны!"
+
+#: inc/options-framework/includes/class-options-framework-admin.php:233
+#@ accesspress_parallax
+msgid "Like our Facebook page and don't miss any updates!"
+msgstr "Лайкните нашу страницу Facebook и не упустите ни одной новости!"
+
+#: inc/options-framework/includes/class-options-framework-admin.php:261
+#@ accesspress_parallax
+msgid "Default options restored."
+msgstr "Настройки по умолчанию восстановлены. "
+
+#: inc/options-framework/includes/class-options-framework-admin.php:315
+#@ accesspress_parallax
+msgid "Options saved."
+msgstr "Настройки Сохранены."
+
+#: inc/options-framework/includes/class-options-media-uploader.php:63
+#@ textdomain
+msgid "No file chosen"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-media-uploader.php:68
+#: inc/options-framework/includes/class-options-media-uploader.php:120
+#@ textdomain
+msgid "Remove"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-media-uploader.php:71
+#@ textdomain
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: inc/options-framework/includes/class-options-media-uploader.php:95
+#@ textdomain
+msgid "View File"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:410
+#@ options-framework
+msgid "No Repeat"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:411
+#@ options-framework
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:412
+#@ options-framework
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:413
+#@ options-framework
+msgid "Repeat All"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:425
+#@ options-framework
+msgid "Top Left"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:426
+#@ options-framework
+msgid "Top Center"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:427
+#@ options-framework
+msgid "Top Right"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:428
+#@ options-framework
+msgid "Middle Left"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:429
+#@ options-framework
+msgid "Middle Center"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:430
+#@ options-framework
+msgid "Middle Right"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:431
+#@ options-framework
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:432
+#@ options-framework
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:433
+#@ options-framework
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:445
+#@ options-framework
+msgid "Scroll Normally"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:446
+#@ options-framework
+msgid "Fixed in Place"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:458
+#@ options-framework
+msgid "Auto"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:459
+#@ options-framework
+msgid "Cover"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:460
+#@ options-framework
+msgid "Contain"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:493
+#@ options-framework
+msgid "No Overlay"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:569
+#@ options-framework
+msgid "Normal"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:570
+#@ options-framework
+msgid "Italic"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:571
+#@ options-framework
+msgid "Bold"
+msgstr ""
+
+#: inc/options-framework/includes/class-options-sanitization.php:572
+#@ options-framework
+msgid "Bold Italic"
+msgstr ""
+
+#: inc/template-tags.php:21
+#@ accesspress_parallax
+msgid "Posts navigation"
+msgstr "Навигация по Постам"
+
+#: inc/template-tags.php:25
+#@ accesspress_parallax
+msgid "<i class=\"fa fa-hand-o-left\"></i> Older Posts"
+msgstr "<i class=\"fa fa-hand-o-left\"></i> Пост Назад"
+
+#: inc/template-tags.php:29
+#@ accesspress_parallax
+msgid "Newer Posts <i class=\"fa fa-hand-o-right\"></i>"
+msgstr "Пост Вперед <i class=\"fa fa-hand-o-right\"></i>"
+
+#: inc/template-tags.php:52
+#@ accesspress_parallax
+msgid "Post navigation"
+msgstr "Навигация по Постам"
+
+#: inc/template-tags.php:55
+#, php-format
+#@ accesspress_parallax
+msgctxt "Previous post link"
+msgid "<i class=\"fa fa-hand-o-left\"></i>%title"
+msgstr ""
+
+#: inc/template-tags.php:56
+#, php-format
+#@ accesspress_parallax
+msgctxt "Next post link"
+msgid "%title<i class=\"fa fa-hand-o-right\"></i>"
+msgstr ""
+
+#: inc/template-tags.php:85
+#, php-format
+#@ accesspress_parallax
+msgctxt "post author"
+msgid "By %s"
+msgstr "От %s"
+
+#: search.php:16
+#, php-format
+#@ accesspress_parallax
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+

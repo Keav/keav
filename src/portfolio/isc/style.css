@@ -1,0 +1,174 @@
+body {
+   font-family:verdana,arial,helvetica,sans-serif;
+   font-size:8pt;
+   color:#fff;
+   background:#232323;
+   margin:0;
+   padding:0;
+   }
+
+p.fronthead {
+   font-weight:bold;
+   font-size:10pt;
+   color:#fff;
+   text-align:center;
+   background:transparent;
+   }
+
+p.front {
+   font-weight:bold;
+   font-size:9pt;
+   color:#fff;
+   text-align:justify;
+   background:transparent;
+   }
+
+p.login {
+   font-family:arial,helvetica,sans-serif;
+   font-weight:bold;
+   font-size:10pt;
+   color:#44f;
+   text-align:center;
+   background:transparent;
+   }
+
+p.mantra {
+   font-family :arial,helvetica,sans-serif;
+   font-weight : bold;
+   font-size : 10pt;
+   color : #ffffff;
+   text-align : justify;
+   background : transparent;
+   }
+
+p.mainhead {
+   font-family:arial,helvetica,sans-serif;
+   font-weight:bold;
+   font-size:12pt;
+   color:#44f;
+   text-align:left;
+   background:transparent;
+   }
+
+p.normal {
+   font-weight:normal;
+   font-size:8pt;
+   color:#fff;
+   text-align:justify;
+   background:transparent;
+   }
+
+table, td, tr {
+   margin:0;
+   padding:0;
+   }
+
+p {
+   padding:0;
+   margin:0;
+   }
+
+p.note {
+   font-weight:normal;
+   font-size:10pt;
+   color:#f80;
+   text-align:justify;
+   background:transparent
+   }
+
+p.footnote {
+   font-weight:normal;
+   font-size:8pt;
+   color:#fff;
+   text-align:center;
+   background:transparent
+   }
+
+p.menuhead {
+   font-weight:bold;
+   font-size:10pt;
+   text-align:center;
+   color:#fff;
+   background:transparent;
+   }
+
+p.menu {
+   font-weight:normal;
+   font-size:8pt;
+   text-align:left;
+   color:#fff;
+   background:transparent;
+   }
+
+.menuheadback {
+   background:#666;
+   color:#000;
+   }
+
+.menuback {
+   background:#111111;
+   color:#ffffff;
+   }
+
+img {
+   border:0px;
+   }
+
+.logo {
+   border-bottom:1px solid #666;
+   }
+
+hr {
+   text-align:center;
+   color:#888;
+   width:620px;
+   height:1px;
+   }
+
+a:visited {
+   font-weight:normal;
+   font-size:10pt;
+   color:#44f;
+   background:transparent;
+   text-decoration:none;
+   }
+
+a:link {
+   font-weight : normal;
+   font-size : 10pt;
+   color : #44f;
+   background : transparent;
+   text-decoration : none;
+   }
+
+a:hover {
+   font-weight:normal;
+   font-size:10pt;
+   color:#f80;
+   background:transparent;
+   text-decoration:underline;
+   }
+
+a:active {
+   font-weight:normal;
+   font-size:10pt;
+   color:#f80;
+   background:transparent;
+   text-decoration:underline;
+   }
+
+ul {
+   font-family:verdana,arial,helvetica,sans-serif;
+   font-size:10pt;
+   font-weight:normal;
+   color:#000;
+   list-style-type:square;
+   line-height:16px;
+   padding:0 0 0 0;
+   margin:8px 8px 8px 40px ; 
+   }
+
+.main    {
+   background:#232323;
+   }
+
