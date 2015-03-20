@@ -225,6 +225,7 @@ a:hover {
 .right:hover .description {
   color: #fff;
 }
+
 .social {
   position: absolute;
   bottom: 20px;
@@ -232,7 +233,9 @@ a:hover {
   line-height: 2.5rem;
   font-size: 2.5rem;
   text-align: center;
+  z-index:4;
 }
+
 @media (max-width: 860px) {
   .social {
     padding: 0;
@@ -256,29 +259,44 @@ a:hover {
     top: 140px;
   }
 }
+
+
 .reel {
-  overflow: hidden;
-  height: 40px;
+  overflow:hidden;
+  height:40px;
+  width:315px;
 }
+
 .reel ul {
-  padding: 0;
-  margin: 0;
+  padding:0;
+  margin:0;
 }
+
 .reel ul li {
-  color: #fff;
-  width: 45px;
+  display: inline-block;
+  color:#fff;
+  width:45px;
   -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
 }
-.reel > ul > li:hover {
-  -webkit-transform: translate(0, -40px);
-  -ms-transform: translate(0, -40px);
-  transform: translate(0, -40px);
+
+.reel > ul > li:hover{
+  -webkit-transform:translate(0,-40px);
+      -ms-transform:translate(0,-40px);
+          transform:translate(0,-40px);
 }
+
 .reel ul li {
-  float: left;
+  float:left;
   list-style-type: none;
 }
+
+
+
+
+
+
+
 .linkedin {
   color: #007bb6;
 }
