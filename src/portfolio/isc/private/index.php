@@ -1,15 +1,10 @@
 <?php
 session_start();
 
-if(isset($_POST['tick']))
-{
+if(isset($_POST['tick']) && $_POST['tick'] != null) {
     // Turn POSTDATA variable into SESSION variable.
    $_SESSION['tick'] = $_POST['tick'];
-
-   // Redirect to remove POSTDATA.
-   header("Location: http://www.keav.net/portfolio/isc/private/");
 }
-
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -32,28 +27,11 @@ if(isset($_POST['tick']))
 
 <link rel="stylesheet" href="../style.css" type="text/css" />
 
-<script type="text/javascript">
-var ic = "4";
-var side = new Array(ic);
-side[0] = "../images/minmatar_babe.jpg";
-side[1] = "../images/caldari_babe.jpg";
-side[2] = "../images/gallente_babe.jpg";
-side[3] = "../images/amarr_dude.jpg";
-
-function pickRandom(range) {
-if (Math.random) return Math.round(Math.random() * (range-1)); else {
-var now = new Date();
-return (now.getTime() / 1000) % range; } }
-
-var choice = pickRandom(ic);
-</script>
-
 <?php
    if ($_SESSION['tick']==1) {
       echo "<base target=\"_blank\">";
    }
 ?>
-
 
 </head>
 
@@ -86,18 +64,20 @@ echo date("l jS F Y H:i");
 ?>
 </span>
 
-<span style="float:right;margin:2px 0 0 0;">
-   <form action="<?php echo $SERVER[PHP_SELF] ?>" method="post" target="_self">
-   Open links in a new window
-   <?php
-      if ($_SESSION['tick']==1) {
-         echo "<input type=\"hidden\" value=\"0\" name=\"tick\"><input type=\"image\" src=\"current.png\" name=\"SUBMIT\" value=\"this window\">";
-         } else {
-         echo "<input type=\"hidden\" value=\"1\" name=\"tick\"><input type=\"image\" src=\"new.png\" name=\"SUBMIT\" value=\"new window\">";
-      }
-   ?>
-   </form>
-</span>
+
+<form action="" method="post" target="_self">
+  <span style="float:right;margin:2px 0 0 0;">
+    Open links in a new window
+    <?php
+      if ($_SESSION['tick']==1) { ?>
+        <input type="hidden" value="0" name="tick">
+        <input type="image" src="current.png" name="SUBMIT" value="this window">
+      <?php } else { ?>
+        <input type="hidden" value="1" name="tick">
+        <input type="image" src="new.png" name="SUBMIT" value="new window">
+     <?php } ?>
+  </span>
+</form>
 
 </div>
 
@@ -195,10 +175,7 @@ Eve Characters</p>
 
 <table width="170" class="menuheadback" cellpadding="0" cellspacing="1">
 <tr>
-<td>
-<script type="text/javascript">
-document.writeln('<img src="'+side[choice]+'" alt="" /><br />');
-</script>
+<td id="randomimage">
 </td>
 </tr>
 </table>
@@ -632,6 +609,30 @@ All content Copyright &copy; 2006 Imperial Space Corporation.<br />
 <!--#                            #-->
 <!--##############################-->
 </div>
+
+<script type="text/javascript">
+var ic = "4";
+var side = [ic];
+side[0] = "../images/minmatar_babe.jpg";
+side[1] = "../images/caldari_babe.jpg";
+side[2] = "../images/gallente_babe.jpg";
+side[3] = "../images/amarr_dude.jpg";
+
+function pickRandom(range) {
+    'use strict';
+    if (Math.random) {
+        return Math.round(Math.random() * (range - 1));
+    }
+    var now = new Date();
+    return (now.getTime() / 1000) % range;
+}
+
+var choice = pickRandom(ic);
+
+/*global document, side, choice: false */
+document.getElementById('randomimage').innerHTML = '<img src="' + side[choice] + '" alt="Image" />';
+</script>
+
 </body>
 </html>
 
