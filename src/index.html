@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, minimal-ui">
   <meta name="apple-mobile-web-app-capable" content="yes">
 
   <title>KEAV</title>
@@ -103,15 +103,15 @@
 
     <a href="octopress/">
       <div class="left">
-        Octopress Blog
-        <p class="description">All About Tech</p>
+        <h3>Octopress Blog</h3>
+        <p>All About Tech</p>
       </div>
     </a>
 
     <a href="coffee/">
       <div class="right">
-        Wordpress Blog
-        <p class="description">Mostly About Motorbikes</p>
+        <h3>Wordpress Blog</h3>
+        <p>Mostly About Motorbikes</p>
       </div>
     </a>
 
@@ -243,7 +243,9 @@
       // lazyLoad : true
     });
   });
+  </script>
 
+<!--   <script type="text/javascript">
   var supportsOrientationChange = "onorientationchange" in window,
     orientationEvent = supportsOrientationChange ? "orientationchange" : "resize";
 
@@ -259,8 +261,30 @@
       }
     }, true);
   }
-  </script>
+  </script> -->
 
+  <script type="text/javascript">
+    var buggyIOS = /\b(?:iPhone|iPod|iPad).*?\bOS 7_[01]/.test(window.navigator.userAgent);
+
+    if (buggyIOS) {
+      $(window).on('orientationchange', function () {
+        window.scrollTo(0, 0);
+      });
+
+      $(window).on('scroll', function () {
+        var focusedElement;
+
+        if ($(document).scrollTop() !== 0) {
+          focusedElement = $(':focus');
+          if (!(focusedElement.is('input') || focusedElement.is('textarea'))) window.scrollTo(0, 0);
+        }
+      });
+
+      formLayer.on('blur', 'input, textarea', function () {
+        if (!$(':focus').length) window.scrollTo(0, 0);
+      });
+    }
+  </script>
 </body>
 
 </html>
