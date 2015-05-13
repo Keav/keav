@@ -244,6 +244,7 @@ module.exports = function (grunt) {
             main: {
                 files: [{
                     expand: true,
+                    timestamp: true,
                     cwd: 'src/',
                     src: [
                         '**/*',
@@ -370,7 +371,7 @@ module.exports = function (grunt) {
     grunt.registerTask('code', ['clean', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres', 'newer:copy', 'string-replace']);
 
     // Interim Deployment
-    grunt.registerTask('deploy', ['clean', 'newer:imagemin:dist', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres', 'newer:copy', 'string-replace']);
+    grunt.registerTask('deploy', ['clean', 'newer:imagemin:dist', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres', 'newer:copy']);
 
     grunt.registerTask('copysrc', ['clean', 'copy']);
 
