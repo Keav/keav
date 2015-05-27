@@ -1,1 +1,0 @@
-[16-Dec-2013 18:42:29 UTC] PHP Warning:  version_compare() expects parameter 2 to be string, object given in /home/keav/public_html/coffee/milk/wp-admin/includes/class-wp-upgrader.php on line 2138
