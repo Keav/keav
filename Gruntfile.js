@@ -195,7 +195,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: 'src/',
-                    src: ['**/*.js', '!**/*.min.js', '!**/coffee/**', '!**/octopress/**', '!**/portfolio/**'],
+                    src: ['**/*.js', '!**/*.min.js', '!**/portfolio/**'],
                     dest: 'dist/',
                     ext: '.min.js',
                     extDot: 'last'
@@ -219,7 +219,7 @@ module.exports = function (grunt) {
                 // Files to hash
                 src: [
                     // WARNING: These files will be renamed!
-                    'src/**/*.css', 'src/**/*.js', '!**/*.min.*', '!**/coffee/**', '!**/octopress/**', '!**/portfolio/**'
+                    'src/**/*.css', 'src/**/*.js', '!**/*.min.*', '!**/portfolio/**'
                 ],
                 // File that refers to above files and needs to be updated with the hashed name
                 dest: 'dist/index.html',
@@ -260,8 +260,6 @@ module.exports = function (grunt) {
                         '!**/*.gif',
                         '!**/less/**',
                         '!**/scss/**',
-                        '!**/coffee/**',
-                        '!**/octopress/**',
                         '!**/portfolio/**'
                     ],
                     dest: 'dist/',
@@ -272,14 +270,6 @@ module.exports = function (grunt) {
                     expand: true,
                     cwd: 'src/',
                     src: ['js/jquery**.min.js', '**/.htaccess'],
-                    dest: 'dist/',
-                }]
-            },
-            octopress: {
-                files: [{
-                    expand: true,
-                    cwd: 'src/octopress/public/',
-                    src: ['**/*'],
                     dest: 'dist/',
                 }]
             },
