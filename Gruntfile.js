@@ -20,7 +20,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: 'src/',
-                    src: ['**/*.jpg', '**/*.png', '**/*.gif', '!**/coffee/**', '!**/octopress/**', '!**/portfolio/**'],
+                    src: ['**/*.jpg', '**/*.png', '**/*.gif', '!**/portfolio/**'],
                     dest: 'dist/'
                 }, ]
             },
@@ -149,19 +149,6 @@ module.exports = function (grunt) {
             }
         },
 
-        cssmin: {
-            build: {
-                files: [{
-                    expand: true,
-                    cwd: 'src/',
-                    src: ['**/*.css', '!**/*.min.css', '!**/*.map', '!**/coffee/**', '!**/octopress/**', '!**/portfolio/**'],
-                    dest: 'dist/',
-                    ext: '.min.css',
-                    extDot: 'last'
-                }]
-            }
-        },
-
         autoprefixer: {
             options: {
                 browsers: ['last 2 versions', 'ie 9']
@@ -198,6 +185,19 @@ module.exports = function (grunt) {
                     src: ['**/*.js', '!**/*.min.js', '!**/portfolio/**'],
                     dest: 'dist/',
                     ext: '.min.js',
+                    extDot: 'last'
+                }]
+            }
+        },
+
+        cssmin: {
+            build: {
+                files: [{
+                    expand: true,
+                    cwd: 'src/',
+                    src: ['**/*.css', '!**/*.min.css', '!**/*.map', '!**/portfolio/**'],
+                    dest: 'dist/',
+                    ext: '.min.css',
                     extDot: 'last'
                 }]
             }
