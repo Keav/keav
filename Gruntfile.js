@@ -20,7 +20,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: 'src/',
-                    src: ['**/*.jpg', '**/*.png', '**/*.gif'],
+                    src: ['**/*.jpg', '**/*.png', '**/*.gif', '!**/coffee/**', '!**/octopress/**', '!**/portfolio/**'],
                     dest: 'dist/'
                 }, ]
             },
@@ -154,7 +154,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: 'src/',
-                    src: ['**/*.css', '!**/*.min.css', '!**/*.map'],
+                    src: ['**/*.css', '!**/*.min.css', '!**/*.map', '!**/coffee/**', '!**/octopress/**', '!**/portfolio/**'],
                     dest: 'dist/',
                     ext: '.min.css',
                     extDot: 'last'
@@ -195,7 +195,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: 'src/',
-                    src: ['**/*.js', '!**/*.min.js'],
+                    src: ['**/*.js', '!**/*.min.js', '!**/portfolio/**'],
                     dest: 'dist/',
                     ext: '.min.js',
                     extDot: 'last'
@@ -219,7 +219,7 @@ module.exports = function (grunt) {
                 // Files to hash
                 src: [
                     // WARNING: These files will be renamed!
-                    'src/**/*.css', 'src/**/*.js', '!**/*.min.*'
+                    'src/**/*.css', 'src/**/*.js', '!**/*.min.*', '!**/portfolio/**'
                 ],
                 // File that refers to above files and needs to be updated with the hashed name
                 dest: 'dist/index.html',
@@ -244,6 +244,7 @@ module.exports = function (grunt) {
             main: {
                 files: [{
                     expand: true,
+                    timestamp: true,
                     cwd: 'src/',
                     src: [
                         '**/*',
@@ -258,7 +259,8 @@ module.exports = function (grunt) {
                         '!**/*.png',
                         '!**/*.gif',
                         '!**/less/**',
-                        '!**/scss/**'
+                        '!**/scss/**',
+                        '!**/portfolio/**'
                     ],
                     dest: 'dist/',
                 }]
@@ -267,16 +269,16 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: 'src/',
-                    src: ['js/jquery**.min.js', '.htaccess'],
+                    src: ['js/jquery**.min.js', '**/.htaccess'],
                     dest: 'dist/',
                 }]
             },
-            octopress: {
+            portfolio: {
                 files: [{
                     expand: true,
-                    cwd: 'src/octopress/public/',
+                    cwd: 'src/portfolio/',
                     src: ['**/*'],
-                    dest: 'dist/',
+                    dest: 'dist/portfolio/',
                 }]
             },
         },
@@ -359,7 +361,7 @@ module.exports = function (grunt) {
     grunt.registerTask('code', ['clean', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres', 'newer:copy', 'string-replace']);
 
     // Interim Deployment
-    grunt.registerTask('deploy', ['clean', 'newer:imagemin', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres', 'newer:copy', 'string-replace']);
+    grunt.registerTask('deploy', ['clean', 'newer:imagemin:dist', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres', 'newer:copy']);
 
     grunt.registerTask('copysrc', ['clean', 'copy']);
 

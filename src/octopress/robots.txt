@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://keav.net/octopress/sitemap.xml 
