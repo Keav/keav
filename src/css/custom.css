@@ -17,6 +17,7 @@ html {
   display: block;
   position: fixed;
 }
+
 .owl-origin {
   -webkit-perspective: 1200px;
   -webkit-perspective-origin-x: 50%;
@@ -24,7 +25,8 @@ html {
   -moz-perspective: 1200px;
   -moz-perspective-origin-x: 50%;
   -moz-perspective-origin-y: 50%;
-  perspective: 1200px;
+  -webkit-perspective: 1200px;
+          perspective: 1200px;
 }
 /* fade */
 
@@ -32,20 +34,24 @@ html {
   -webkit-animation: fadeOut 2s both ease;
   animation: fadeOut 2s both ease;
 }
+
 .owl-fade-in {
   -webkit-animation: fadeIn 2s both ease;
   animation: fadeIn 2s both ease;
 }
+
 @-webkit-keyframes empty {
   0% {
     opacity: 1
   }
 }
+
 @keyframes empty {
   0% {
     opacity: 1
   }
 }
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -54,6 +60,7 @@ html {
     opacity: 1;
   }
 }
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -62,6 +69,7 @@ html {
     opacity: 1;
   }
 }
+
 @-webkit-keyframes fadeOut {
   0% {
     opacity: 1;
@@ -70,6 +78,7 @@ html {
     opacity: 0;
   }
 }
+
 @keyframes fadeOut {
   0% {
     opacity: 1;
@@ -78,6 +87,7 @@ html {
     opacity: 0;
   }
 }
+
 .item {
   height: 100vh;
   width: 100vw;
@@ -230,8 +240,7 @@ a:hover {
   display: inline-block;
   color:#fff;
   width:45px;
-  -webkit-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .reel > ul > li:hover{
