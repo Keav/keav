@@ -6,8 +6,8 @@
   "homepage": "http://keav.net",
   "author": {
     "name": "Chris Keavey",
-    "email": "chris@keav.net",
-    "url": "http://keav.net"
+    "email": "chris@chriskeavey.com",
+    "url": "http://chriskeavey.com"
   },
   "main": "Gruntfile.js",
   "repository": {

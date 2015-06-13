@@ -82,7 +82,7 @@ module.exports = function (grunt) {
                     precision: 10,
                 },
                 files: {
-                    'src/css/sass.css': 'src/scss/sass.scss'
+                    'src/css/sass.css': 'src/scss/sass.scss' // 'destination': 'source'
                 }
             }
         },
@@ -134,6 +134,9 @@ module.exports = function (grunt) {
         },
 
         uglify: {
+            options: {
+                preserveComments: 'some'
+            },
             build: {
                 files: [{
                     expand: true,
@@ -147,11 +150,14 @@ module.exports = function (grunt) {
         },
 
         cssmin: {
+            options: {
+                keepSpecialComments: 1
+            },
             build: {
                 files: [{
                     expand: true,
                     cwd: 'src/',
-                    src: ['**/*.css', '!**/*.min.css', '!**/*.map', '!**/portfolio/**'],
+                    src: ['**/*.css', '!**/*.min.css', '!**/*.map'],
                     dest: 'dist/',
                     ext: '.min.css',
                     extDot: 'last'
@@ -174,7 +180,7 @@ module.exports = function (grunt) {
                     renameFiles: false
                 },
                 src: [
-                    'src/**/*.css', 'src/**/*.js', '!**/*.min.*', '!**/portfolio/**'
+                    'src/**/*.css', 'src/**/*.js', '!**/*.min.*'
                 ],
                 dest: 'dist/index.html',
             },
@@ -210,7 +216,6 @@ module.exports = function (grunt) {
                         '!**/*.gif',
                         '!**/less/**',
                         '!**/scss/**',
-                        '!**/portfolio/**'
                     ],
                     dest: 'dist/',
                 }]
@@ -264,10 +269,6 @@ module.exports = function (grunt) {
                 files: ['src/sass/*.scss'],
                 tasks: ['sass'],
             },
-            autoprefix: {
-                files: ['src/css/*.css'],
-                tasks: ['newer:autoprefixer'],
-            },
             livereload: {
                 files: ['src/**/*.html', 'src/**/*.css', 'src/**/*.js'],
                 options: {livereload: true}
@@ -278,9 +279,6 @@ module.exports = function (grunt) {
 
     // Default task(s).
     grunt.registerTask('default', ['watch']);
-
-    // Bump release version numbers
-    grunt.registerTask('prefix', ['autoprefixer']);
 
     // Build for Staging
     grunt.registerTask('build', ['clean', 'autoprefixer', 'newer:imagemin:dist', 'newer:htmlmin', 'newer:uglify', 'newer:cssmin', 'hashres:min', 'hashres:prod', 'newer:copy']);
